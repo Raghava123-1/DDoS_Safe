@@ -1,0 +1,2 @@
+alert tcp any any -> any 80 (msg:"SYN Flood Attack Detected"; flags:S; sid:1000002;)
+
